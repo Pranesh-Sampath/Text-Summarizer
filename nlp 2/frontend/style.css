@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1a202c;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #718096;
+  margin-bottom: 24px;
+  font-size: 1rem;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  resize: vertical;
+  outline: none;
+  transition: border 0.2s;
+}
+
+textarea:focus {
+  border-color: #4299e1;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 16px 0;
+  flex-wrap: wrap;
+}
+
+select, input[type="number"] {
+  padding: 8px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+button {
+  background: #4299e1;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #2b6cb0;
+}
+
+.badge {
+  display: inline-block;
+  background: #ebf8ff;
+  color: #2b6cb0;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+#summaryOutput {
+  color: #2d3748;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.loader {
+  text-align: center;
+  color: #4299e1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+.error {
+  color: #e53e3e;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+pre.output {
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #f7fafc;
+  color: #2d3748;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}

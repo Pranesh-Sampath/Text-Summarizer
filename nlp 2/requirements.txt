@@ -1,0 +1,8 @@
+flask
+transformers
+torch
+spacy
+scikit-learn
+rouge-score
+pandas
+numpy
